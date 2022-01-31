@@ -19,12 +19,11 @@ $(document).ready(function () {
 
     // 3.Dar un estilo a los elementos pares e impares de la lista al pasar el mouse sobre la
     // caja roja y que vuelva a la normalidad cuando el mouse deje la caja (hint:
-    // mouseover(), mouseleave())
+    // mouseover(), mouseleave()) -- Dudas respecto a este ejercicio
 
     $('span').mouseover(function () {
         $('ul li:even').css({ "font-size": "5rem", "color": "blue"});
         $('ul li:odd').css({ "font-size": "5rem", "color": "green" });
-
     });
 
 
